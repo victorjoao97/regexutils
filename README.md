@@ -25,3 +25,11 @@ Regex que insere o ALT e o TITLE
 
 `<a title="eu sou um title" alt="eu sou um alt"$2</a>`
 [DEMO](https://regex101.com/r/TpSz7i/1)
+
+## Não tem TITLE em imagem
+`<img(?!.*(title).*)(.*)(\/)>`
+
+Regex que insere o TITLE
+
+`<img title="eu sou um title"$2 />`
+[DEMO](https://regex101.com/r/JSbPYW/1)
