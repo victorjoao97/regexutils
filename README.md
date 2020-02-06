@@ -1,4 +1,4 @@
-# regexutils
+# regexutils :smiley:
 Regex muito úteis que sempre utilizo
 
 ## Não tem TITLE em um LINK
