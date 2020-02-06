@@ -44,7 +44,7 @@ Regex que insere o TITLE
 [DEMO](https://regex101.com/r/aPIFEF/1)
 
 ## Não tem ALT e TITLE em imagem
-`<img(?!.*(alt).*)(.*)([\/]?)>`
+`<img(?!.*(alt|title).*)(.*)([\/]?)>`
 
 Regex que insere o ALT e TITLE
 
