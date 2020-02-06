@@ -28,9 +28,25 @@ Regex que insere o TITLE
 [DEMO](https://regex101.com/r/TpSz7i/1)~~
 
 ## Não tem TITLE em imagem
-`<img(?!.*(title).*)(.*)(\/)>`
+`<img(?!.*(title).*)(.*)([\/]?)>`
 
 Regex que insere o TITLE
 
-`<img title="eu sou um title"$2 />`
-[DEMO](https://regex101.com/r/JSbPYW/1)
+`<img title="eu sou um title"$2$3>`
+[DEMO](https://regex101.com/r/JSbPYW/2)
+
+## Não tem ALT em imagem
+`<img(?!.*(alt).*)(.*)([\/]?)>`
+
+Regex que insere o TITLE
+
+`<img alt="eu sou um alt"$2$3>`
+[DEMO](https://regex101.com/r/aPIFEF/1)
+
+## Não tem ALT e TITLE em imagem
+`<img(?!.*(alt).*)(.*)([\/]?)>`
+
+Regex que insere o ALT e TITLE
+
+`<img alt="eu sou um alt" title="eu sou um title"$2$3>`
+[DEMO](https://regex101.com/r/sutprq/1)
