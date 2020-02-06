@@ -9,22 +9,23 @@ Regex que insere o TITLE
 `<a title="eu sou um title"$2</a>`
 [DEMO](https://regex101.com/r/Hf1JsO/1)
 
-## Não tem ALT em um Link
-`<a(?!.*(alt).*)(.*)<\/a>`
+## A TAG a não tem o atributo ALT
+~~## Não tem ALT em um Link
+`<a(?!.*(alt).*)(.*)<\/a>`~~
 
-Regex que insere o ALT
+~~Regex que insere o ALT~~
 
-`<a alt="eu sou um alt"$2</a>`
-[DEMO](https://regex101.com/r/xf3bPX/1)
+~~`<a alt="eu sou um alt"$2</a>`
+[DEMO](https://regex101.com/r/xf3bPX/1)~~
 
-## Não tem ALT e TITLE no link
+~~## Não tem ALT e TITLE no link~~
 
-`<a(?!.*(alt|title).*)(.*)<\/a>`
+~~`<a(?!.*(alt|title).*)(.*)<\/a>`~~
 
-Regex que insere o ALT e o TITLE
+~~Regex que insere o ALT e o TITLE~~
 
-`<a title="eu sou um title" alt="eu sou um alt"$2</a>`
-[DEMO](https://regex101.com/r/TpSz7i/1)
+~~`<a title="eu sou um title" alt="eu sou um alt"$2</a>`
+[DEMO](https://regex101.com/r/TpSz7i/1)~~
 
 ## Não tem TITLE em imagem
 `<img(?!.*(title).*)(.*)(\/)>`
